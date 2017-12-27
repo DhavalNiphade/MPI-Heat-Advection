@@ -1,0 +1,6 @@
+set pm3d map
+set pm3d interpolate 0,0
+#set pm3d implicit at s
+set term png
+set output "output.png"
+splot 'output.txt' matrix
